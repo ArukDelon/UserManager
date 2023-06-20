@@ -1,0 +1,26 @@
+﻿<Application x:Class="ArukWpfApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ArukWpfApp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/CloseButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/HideButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/SearchTextBoxStyle.xaml"/>
+                <ResourceDictionary Source="Themes/AddUserButtonStyle.xaml"/>
+                <ResourceDictionary Source="Themes/SearchButtonStyle.xaml"/>
+                <ResourceDictionary Source="Themes/RotateImage.xaml"/>
+                <ResourceDictionary Source="Themes/CancelButtonStyle.xaml"/>
+                <ResourceDictionary Source="Themes/DeleteButtonStyle.xaml"/>
+                <ResourceDictionary Source="Themes/CancelDeleteButtonStyle.xaml"/>
+                <ResourceDictionary Source="Themes/ConfWinStyle.xaml"/>
+                <ResourceDictionary Source="Themes/ListBoxStyle.xaml"/>
+                <ResourceDictionary Source="Themes/NavigationButtonStyle.xaml"/>
+                <ResourceDictionary Source="Themes/TabButtonStyle.xaml"/>
+                <ResourceDictionary Source="Themes/ToggleButtonStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
